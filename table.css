@@ -1,0 +1,19 @@
+.content-table{
+    border-collapse: collapse;
+    margin:30px;
+    font-size:1.2em;
+    min-width:730px;
+    border-radius: 5px 7px 0 0;
+    overflow:hidden;
+}
+
+.content-table thead tr{
+    background-color:black;
+    text-align: left;
+    font-weight:bolder;
+}
+
+.content-table th,
+.content-table td{
+  padding: 12px 15px;
+}
