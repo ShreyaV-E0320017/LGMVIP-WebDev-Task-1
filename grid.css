@@ -1,0 +1,27 @@
+.card-container {
+	align-items: start;
+	display: grid;
+	grid-gap: 23px;
+	grid-template-columns: repeat(auto-fit, 300px);
+	justify-content: center;
+}
+
+.card {
+	background-color: black;
+	border-radius: 5px;
+	color: white;
+	padding: 44px 0 25px;
+	text-align: center;
+	text-shadow: 1px 1px 0 #555;
+}
+
+.fas {
+	font-size: 50px;
+}
+
+.l{
+	border-left: 6px black;
+    height: 200px;
+    position:absolute;
+    left: 50%;
+}
