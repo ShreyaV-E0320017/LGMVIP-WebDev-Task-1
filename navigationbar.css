@@ -1,0 +1,46 @@
+nav {
+    background: #2196f3;
+    width: 100%;
+    line-height: 40px;
+    margin-top: 0px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    width: 200px;
+    padding: 0px 10px;
+    transition: 0.5s;
+    list-style: none;
+}
+nav ul li:hover {
+    background-color: yellow;
+}
+nav ul li:hover a {
+    color: black;
+}
+nav ul li a {
+    color: #fff;
+}
+nav ul li a span {
+    position: absolute;
+    letter-spacing: 3px;
+    transform: translate(-65px);
+    opacity: 0;
+    pointer-events: none;
+    transition: 0.4s;
+}
+nav ul li a i {
+    font-size: 22px;
+    margin: 0px 40px;
+    transition: 0.4s;
+}
+nav ul li:hover a span {
+    transform: translateX(-55px);
+    opacity: 1;
+    pointer-events: visible;
+}
+nav ul li:hover a i {
+    transform: translateX(-25px);
+}
